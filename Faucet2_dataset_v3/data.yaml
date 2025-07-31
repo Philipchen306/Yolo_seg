@@ -1,0 +1,6 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ["null", "10", "10o", "11", "11o", "12", "12o", "13", "13o", "14", "8", "9", "9c", "9o"]

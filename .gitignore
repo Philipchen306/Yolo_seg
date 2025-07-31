@@ -1,0 +1,15 @@
+# 虛擬環境資料夾
+.venv
+labelimg_env_py39/
+new_segmentation_env/
+
+# Python 編譯檔案
+__pycache__/
+*.pyc
+
+# 模型訓練結果資料夾 (包含訓練日誌、圖表和模型權重)
+runs/
+labels.cache
+
+# PyTorch 預訓練模型
+*.pt
