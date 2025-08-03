@@ -3,8 +3,8 @@
 from ultralytics import YOLO
 
 # --- 設定你的路徑 (請務必根據你的實際檔案位置進行修改) ---
-TRAINED_MODEL_PATH = 'runs/faucet2_50epoch/train_seg11/weights/best.pt' # 你的 best.pt 路徑
-VIDEO_PATH = 'demo_videos/faucet_2.1_out.MOV' # 你的影片檔案路徑
+TRAINED_MODEL_PATH = 'runs/faucet2_50epoch/train_seg2/weights/best.pt' # 你的 best.pt 路徑
+VIDEO_PATH = 'demo_videos/faucet_2.2_out.MOV' # 你的影片檔案路徑
 
 # --- 載入模型 ---
 print(f"Loading trained segmentation model from: {TRAINED_MODEL_PATH}")

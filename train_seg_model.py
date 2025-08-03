@@ -5,10 +5,10 @@ model = YOLO('yolov8n-seg.pt')
 
 print("Starting YOLOv8 Segmentation model training...")
 results = model.train(data='Faucet2_dataset_v3/data.yaml', # <--- 指向你的新 data.yaml
-                      epochs=50,
+                      epochs=30,
                       imgsz=640,
                       batch=2,
-                      device='mps',
+                      device='cpu',
                       project='runs/segment', # <--- 將結果儲存到 runs/segment/ 下
                       name='train_seg') # <--- 這次訓練的名稱，例如 'train_seg'
 print("YOLOv8 Segmentation model training complete!")
